@@ -17,6 +17,7 @@ var/
 .installed.cfg
 *.egg
 *.lock
+node_modules/
 
 # Serverless directories
 .serverless

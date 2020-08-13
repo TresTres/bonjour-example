@@ -13,4 +13,7 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: lambdas/greeting/handler.hello
+
+plugins:
+  - serverless-python-requirements
